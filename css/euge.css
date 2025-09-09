@@ -31,8 +31,14 @@
 }
 #listaEuge{
     font-size: 1.1rem;
-    text-align:center;
-    padding: 1rem;
+    
+    padding: 0.2rem;
+ list-style-type: none;
+}
+
+li{
+margin-top: 10px;
+margin-bottom:10px;
 }
 
 #Belgrano{
@@ -42,4 +48,35 @@
             border-radius: 8px;
             border-color: #fe9c8f;
             
+}
+
+
+
+.popupEuge{
+    visibility: hidden;
+}
+
+.popupEuge.show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#cajaTextoEuge2{
+
+    display: inline-block;
+    background-color: #fff5ee;
+    font-size: large;
+    
+
 }
