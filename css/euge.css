@@ -1,0 +1,45 @@
+#bodyeuge{
+
+    text-align: center;
+    color: #fe9c8f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fff5ee;
+
+
+
+
+}
+
+
+
+#cajaTextoEuge{
+   
+        padding: 15px;
+        display: inline-block;
+        background-color: #ffffff;
+        border-radius: 8px;
+    
+}
+#h2euge {
+    font-size: 1.5em;
+}
+
+#contenidoEuge{
+    font-size: large;
+    font-weight: bold;
+
+}
+#listaEuge{
+    font-size: 1.1rem;
+    text-align:center;
+    padding: 1rem;
+}
+
+#Belgrano{
+        padding: 7px;
+            display: inline-block;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border-color: #fe9c8f;
+            
+}
