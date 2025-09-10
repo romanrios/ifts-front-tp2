@@ -15,8 +15,7 @@
   display: grid;
   place-items: center;
   background: linear-gradient(to top,
-    rgba(0, 0, 0, 0.3)50%, rgba(0, 0, 0, 0.3)50%),
-    url(img/fondobelen.jpg);
+    rgba(0, 0, 0, 0.3)50%, rgba(0, 0, 0, 0.3)50%), url(../img/fondobelen.jpg);
   background-position: center;
   background-size: cover;
   font-family: 'Segoe UI', sans-serif;
