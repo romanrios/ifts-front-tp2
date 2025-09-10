@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daniel Córdoba</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-hola mundo
+    <header>
+        <h1>Tarjeta de Presentación</h1>
+    </header>
+    <main>
+        <section class="card">
+            <img src="img/avatar.png" alt="Avatar de Daniel">
+            <h2>Daniel Córdoba</h2>
+            <p><strong>Ubicación:</strong> Belgrano – CABA</p>
+            <p><strong>Edad:</strong> 38</p>
+            <button onclick="toggleInfo()">Mostrar/Ocultar Información</button>
+            <div id="extra-info" style="display:none;">
+                <p><strong>Habilidades:</strong> Buen tipo – Apreciar lo bueno – Empático – Guitarrear habilidades ja!</p>
+                <p><strong>Películas favoritas:</strong> Corazón valiente – Terminator - Contracara</p>
+                <p><strong>Música favorita:</strong> Rock - Hard Rock – Rock Metal (entre los ´70s y ´90s)</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
