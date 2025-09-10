@@ -1,6 +1,6 @@
 (function() {
-  const toggleButton = document.querySelector('#belen-page #toggleInfo');
-  const infoSection = document.querySelector('#belen-page #infoSection');
+  const toggleButton = document.querySelector('#pagina-belen #toggleInfo');
+  const infoSection = document.querySelector('#pagina-belen #infoSection');
 
   toggleButton.addEventListener('click', function() {
     infoSection.classList.toggle('active');
@@ -9,8 +9,8 @@
       : 'Más sobre mí';
   });
 
-  const tabButtons = document.querySelectorAll('#belen-page .tab-btn');
-  const tabContents = document.querySelectorAll('#belen-page .tab-content');
+  const tabButtons = document.querySelectorAll('#pagina-belen .tab-btn');
+  const tabContents = document.querySelectorAll('#pagina-belen .tab-content');
 
   tabButtons.forEach(button => {
     button.addEventListener('click', () => {
@@ -20,7 +20,7 @@
       tabContents.forEach(content => content.classList.remove('active'));
 
       button.classList.add('active');
-      document.querySelector(`#belen-page #${tabId}`).classList.add('active');
+      document.querySelector(`#pagina-belen #${tabId}`).classList.add('active');
     });
   });
 })();
