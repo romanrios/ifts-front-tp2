@@ -15,7 +15,7 @@
   margin: 0;
   display: grid;
   place-items: center;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: linear-gradient(to top,
     rgba(0, 0, 0, 0.3)50%, rgba(0, 0, 0, 0.3)50%), url(../img/fondobelen.jpg);
   background-position: center;
@@ -29,7 +29,7 @@
   width: 90%;          
   max-width: 400px;        
   height: auto;            
-  margin-top: 20px;
+  margin-top: 8px;
   margin-bottom: 20px;
   background: var(--glass);
   border-radius: 20px;
@@ -173,3 +173,22 @@
   width: 20px;
 }
 
+#pagina-belen .nav-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(45deg,var(--secondary), var(--primary));
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#pagina-belen .nav-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
