@@ -9,7 +9,7 @@ body {
 
 
 .fotoMain {
-    background-image: url("img/fondoMain.png");
+    background-image: url("../img/fondoMain.png");
     background-size: cover;
     background-position: center;
     position: relative;
