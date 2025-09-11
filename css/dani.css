@@ -1,20 +1,11 @@
-/*////body { font-family: 'Roboto', sans-serif; margin: 20px; background: (fondoDani) }
-img { max-width: 200px; }
-@media (max-width: 400px) { body { font-size: 14px; } }
-@media (max-width: 900px) { body { font-size: 16px; } }
-@media (min-width: 1200px) { body { font-size: 18px; } }
 
-*/
-
-
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Fondo y tipografía */
+/* Fondo */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: url("../img/fondoDani.jpg") no-repeat center center fixed;
@@ -51,7 +42,7 @@ header h1 {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 40%;
     border: 4px solid #fff;
     margin-bottom: 15px;
 }
@@ -81,11 +72,6 @@ button {
     transition: background 0.3s ease;
 }
 button:hover {
-    background: #ff3b3b;
+    background: #4c0404;
 }
 
-/* Animación de aparición */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
