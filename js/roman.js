@@ -10,7 +10,7 @@ const palettes = [
     { bg: "#fef8e7", text: "#4b3621", card: "#fff4d1", accent: "#d2691e" },
     { bg: "#0d0d0d", text: "#e6e6e6", card: "#1a1a1a", accent: "#ff4500" },
     { bg: "#0a192f", text: "#dff6ff", card: "#112240", accent: "#f0a500" },
-    { bg: "#121212", text: "#e0e0e0", card: "#1e1e1e", accent: "#4f46e5" },
+    { bg: "#121212", text: "#e0e0e0", card: "#1e1e1e", accent: "#7a72ffff" },
     { bg: "#1a1a1a", text: "#f5f5f5", card: "#2c2c2c", accent: "#00bfff" }
 ];
 

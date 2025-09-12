@@ -36,8 +36,7 @@
 }
 
 .roman_profile_name {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
 }
 
 .roman_profile_section {
@@ -50,12 +49,13 @@
   margin-top: 0.5rem;
 }
 
-hr {
+.roman_body hr {
   margin: 1rem 0;
 }
 
 .roman_theme_controls {
-  text-align: center;
+  display: flex;
+justify-content: center;
   margin-top: 1.5rem;
 }
 
