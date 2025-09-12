@@ -1,9 +1,10 @@
-/*clases cesu*/
+        /*clases cesu*/
 
 .cesu-body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif; /* texto del body */
+    font-style: normal;
     background: linear-gradient(135deg, #fff9d6, #ffe6f0);
 }
 
@@ -12,23 +13,31 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px; /* separación de la tarjeta */
+    margin-bottom: 15px; /* separación de la tarjeta */
 }
 
 .cesu-main {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
-/* barra de navegacion*/
-.cesu-nav-list {
+        /* barra de navegacion*/
+.cesu-nav {
     display: flex; 
     justify-content: center;
-    padding: 0;
-    margin: 20px 0;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.cesu-nav-list {
     list-style: none;
-    gap: 15px;  /* espacio entre links */
+    margin: 0;
+    padding: 0;
+}
+
+.cesu-nav-list li {
+  display: inline-block;
 }
 
 .cesu-link {
@@ -48,7 +57,7 @@
 }
 
 
-/*mi tarjeta*/
+        /*mi tarjeta*/
 .cesu-tarjeta {
     background-color: white;
     max-width: 400px;
@@ -73,7 +82,7 @@
     margin-bottom: 15px;
 }
 
-/* Línea horizontal separadora */
+        /* Línea horizontal separadora */
 .cesu-divider {
     border: none;
     height: 1px;
@@ -104,4 +113,18 @@
     margin-bottom: 8px;
     font-size: 1rem;
     color: #444;
+}
+
+        /* Clases Cesu para JS*/
+.cesu-chiste-texto {
+  margin-top: 10px;
+  font-style: italic;
+  color: #666;
+}
+#cesu-chiste {
+  cursor: pointer;
+  color: #484848;
+}
+#cesu-chiste:hover {
+  text-decoration: underline;
 }

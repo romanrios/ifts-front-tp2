@@ -8,21 +8,18 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/cesu.css" />
+    <script src="./js/cesu.js" defer></script>
+
 </head>
 <body class="cesu-body">
 
     <header class="cesu-header">
         <nav class="cesu-nav">
             <ul class="cesu-nav-list">
-                <li><a class="cesu-link" href="index.html">Portada</a></li>
-                <li><a class="cesu-link" href="./daniel.html">Daniel</a></li>
-                <li><a class="cesu-link" href="./cesu.html" aria-current="page">Cecilia</a></li>
-                <li><a class="cesu-link" href="./belen.html">Belén</a></li>
-                <li><a class="cesu-link" href="./euge.html">Eugenia</a></li>
-                <li><a class="cesu-link" href="./roman.html">Román</a></li>
+                <li><a class="cesu-link" href="index.html">🐾 Volver a la Portada</a></li>
             </ul>
         </nav>
 
@@ -48,8 +45,11 @@
                     <li>Escribir poemas tristes</li>
                     <li>Hacer imágenes con IA</li>
                     <li>Sufrir por Boquita</li>
-                    <li>Contar chistes malos (hacé click y comprobalo)</li>
+                    <li id="cesu-chiste">Contar chistes malos (hacé click y comprobalo)</li>
                 </ul>
+
+                <!-- chiste -->
+                <p id="cesu-chiste-texto" class="cesu-chiste-texto"></p>
             </section>
 
                     <!-- Sección Películas -->
