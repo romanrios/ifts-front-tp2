@@ -46,3 +46,28 @@ li {
     padding: 0.2rem;
     list-style-type: none;
 }
+.equipo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.persona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nombre {
+    font-size: 25px;
+    margin: 5px 0;
+    color: #333;
+    font-weight: 700;
+}
+
+.persona img {
+    display: block;
+    transition: transform 0.3s ease;
+}
