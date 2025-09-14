@@ -11,7 +11,7 @@ body {
     background: url("../img/fondoDani.jpg") no-repeat center center fixed;
     background-size: cover;
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -32,8 +32,8 @@ body {
 }    
 
 /* Botón volver */
-/*.header nav a {
-  color: rgb(255, 255, 255);
+.header nav a {
+  color: rgb(248, 241, 241);
 }
 
 /* Tarjeta */
