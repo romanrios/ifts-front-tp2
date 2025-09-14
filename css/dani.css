@@ -26,19 +26,17 @@ body {
     margin-bottom: 20px;
     font-size: 2rem;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
-    display: flex;
-    justify-content: center;
-    padding: 15px 0;
+
     list-style: none;
     margin: 0;
     padding: 0;
     display: inline-block;
 }
 
-/* Botón volver */
+/*Botón de Volver*/
 .header nav a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 /* Tarjeta */
@@ -86,7 +84,8 @@ button {
     cursor: pointer;
     transition: background 0.3s ease;
 }
-/*button:hover {
+
+button:hover {
     background: #4c0404;
 }
 
