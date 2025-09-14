@@ -30,11 +30,6 @@ body {
     display: inline-block;
 }
 
-/*Botón de Volver*/
-.header nav a {
-    color: white;
-}
-
 /* Tarjeta */
 .card {
     background: rgba(0, 0, 0, 0.65);
