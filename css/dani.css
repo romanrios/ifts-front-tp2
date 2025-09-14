@@ -20,10 +20,10 @@ body {
 }
 
 /* Botón volver */
-nav a {
+/*nav a {
   text-decoration: none;
-  color: white;
-}
+  color: rgb(255, 255, 255);
+}/*
 
 /* Encabezado */
 header h1 {
@@ -35,6 +35,7 @@ header h1 {
     margin: 0;
     padding: 0;
     display: inline-block;
+    color: rgb(255, 255, 255);
 }
 
 
