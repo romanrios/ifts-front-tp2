@@ -1,5 +1,4 @@
-TP1 - Proyecto Web en Equipo
-IFTS · Frontend · Grupo 2
+IFTS · Frontend · Grupo 2 - TP1 - Proyecto Web en Equipo
 
 Integrantes
 •	Córdoba, Daniel Ignacio
