@@ -19,14 +19,10 @@ body {
     text-align: center;
 }
 
-/* Botón volver */
-nav a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
+
 
 /* Encabezado */
-header h1 {
+.header h1 {
     margin-bottom: 20px;
     font-size: 2rem;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
@@ -35,9 +31,13 @@ header h1 {
     margin: 0;
     padding: 0;
     display: inline-block;
-    color: rgb(255, 255, 255);
 }
 
+/* Botón volver */
+.header nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 
 /* Tarjeta */
 .card {
@@ -84,7 +84,7 @@ button {
     cursor: pointer;
     transition: background 0.3s ease;
 }
-button:hover {
+/*button:hover {
     background: #4c0404;
 }
 
