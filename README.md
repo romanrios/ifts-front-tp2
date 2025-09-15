@@ -53,12 +53,13 @@ Raíz/
 ---
 
 ## Funcionalidades JavaScript
-- **Portada:** interactividad en las tarjetas.  
+- **Portada:** Interactividad en las tarjetas.  
 - **Páginas individuales:**  
-  - Mostrar/ocultar información adicional.  
-  - Botones para cambiar colores y tipografías.  
-  - Sistema de pestañas y popups.  
-  - Generador de chistes aleatorios.  
+  - Daniel: Mostrar/ocultar información adicional.  
+  - Cecilia: Generar chistes aleatorios.  
+  - Belén: Mostrar/ocultar información y navegar entre secciones con pestañas.  
+  - Eugenia: Mostrar/ocultar información adicional.  
+  - Román: Cambiar colores y tipografías con botones.  
 
 ---
 
