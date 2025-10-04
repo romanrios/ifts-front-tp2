@@ -1,5 +1,5 @@
 # IFTS · Frontend · Grupo 2  
-### Trabajo Práctico Grupal 2 · Proyecto Web en Equipo
+### Trabajo Práctico Grupal 1 · Proyecto Web en Equipo
 
 ---
 
