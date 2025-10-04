@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/Sidebar/Sidebar";
 import Portada from "./pages/Portada";
 import Bitacora from "./pages/Bitacora";
 import Integrantes from "./pages/Integrantes";
@@ -14,7 +14,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Portada />} />
           <Route path="/bitacora" element={<Bitacora />} />
-          <Route path="/integrantes" element={<Integrantes />} />
           <Route path="/integrantes" element={<Integrantes />} />
           <Route path="/integrantes/:id" element={<Integrante />} />
         </Routes>

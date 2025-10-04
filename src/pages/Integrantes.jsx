@@ -1,24 +1,22 @@
-import { Link } from "react-router-dom";
-
-const integrantes = [
-  { id: 1, nombre: "Daniel Córdoba" },
-  { id: 2, nombre: "Cecilia Gómez" },
-  { id: 3, nombre: "Mariela Giménez" },
-  { id: 4, nombre: "Eugenia Lucchelli" },
-  { id: 5, nombre: "Román Ríos" },
-];
+import Card from "../components/Card/Card";
+import { integrantes } from "../data/integrantes";
 
 function Integrantes() {
+  const containerStyle = {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: "1rem",
+    justifyContent: "center",
+  };
+
   return (
     <>
       <h2>Integrantes</h2>
-      <ul>
+      <div style={containerStyle}>
         {integrantes.map((int) => (
-          <li key={int.id}>
-            <Link to={`/integrantes/${int.id}`}>{int.nombre}</Link>
-          </li>
+          <Card key={int.id} integrante={int} />
         ))}
-      </ul>
+      </div>
     </>
   );
 }
