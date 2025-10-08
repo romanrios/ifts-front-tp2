@@ -4,7 +4,7 @@ import styles from './Sidebar.module.css';
 function Sidebar() {
   return (
     <aside className={styles.sidebar}>
-      <h2 className={styles.title}>Grupo 11</h2>
+      <h2 className={styles.title}>Grupo 2</h2>
       <nav>
         <ul className={styles.menu}>
           <li className={styles.menuItem}>
