@@ -12,6 +12,7 @@ function Integrantes() {
   return (
     <>
       <h2>Integrantes</h2>
+      <br></br>
       <div style={containerStyle}>
         {integrantes.map((int) => (
           <Card key={int.id} integrante={int} />

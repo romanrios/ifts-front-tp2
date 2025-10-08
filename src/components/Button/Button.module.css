@@ -2,8 +2,9 @@
     display: inline-block;
     margin-top: 0.5rem;
     padding: 0.3rem 0.6rem;
-    background: #1e90ff;
+    background: #D4B8D2;
     color: #fff;
+    font-weight: bold;
     border-radius: 4px;
     text-decoration: none;
     text-align: center;
@@ -11,5 +12,5 @@
 }
 
 .button:hover {
-    background: #0c7cd5;
+    background: #AFC7FB;
 }
