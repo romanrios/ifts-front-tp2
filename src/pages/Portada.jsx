@@ -11,7 +11,7 @@ function Portada() {
 
   return (
     <>
-      <h1>Grupo 2 · TP01</h1>
+      <h1>Grupo 2 · TP02</h1>
 
       <div className={styles.fotoMain}>
         <div className={styles.Titulo}>GRUPO DOS</div>
