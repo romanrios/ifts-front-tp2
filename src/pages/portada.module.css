@@ -8,7 +8,7 @@ body {
 
 
 .fotoMain {
-    background-image: url("../img/fondoMain.png");
+background-image: url("/fondoMain.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -33,4 +33,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.listaMain {
+    font-size: 1rem;
+    padding: 0.2rem;
+    list-style-type: none;
 }
