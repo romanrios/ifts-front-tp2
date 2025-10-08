@@ -27,7 +27,7 @@ export const integrantes = [
       nombre: "Cesu Gomez",
       img: "/cesu.png",
       ubicacion: "Saavedra, CABA",
-      edad: 38,
+      edad: 39,
       habilidades: [
         "Cebar mates lavados",
         "Escribir poemas tristes",
