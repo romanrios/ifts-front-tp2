@@ -1,5 +1,4 @@
 import styles from "./portada.module.css";
-import Button from "../components/Button/Button";
 
 function Portada() {
   const containerStyle = {
