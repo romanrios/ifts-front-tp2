@@ -1,0 +1,146 @@
+[
+  { 
+    "id": 1,
+    "titulo": "Another Day in Paradise",
+    "artista": "Phil Collins",
+    "album": "…But Seriously",
+    "anio": 1989,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/5/53/Phil_Collins_AnotherDayInParadise.jpg"
+  },
+  { 
+    "id": 2,
+    "titulo": "Forever Young",
+    "artista": "Alphaville",
+    "album": "Forever Young",
+    "anio": 1984,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/4/4e/Alphavilleforeveryoung.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Fuimos amor",
+    "artista": "Esteman",
+    "album": "Amor Libre",
+    "anio": 2019,
+    "imagen": "https://cdn-images.dzcdn.net/images/cover/340571750c98c8dd52d0b2c5ab9f3f95/500x500-000000-80-0-0.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Hábito de ti",
+    "artista": "Vanesa Martín",
+    "album": "Munay",
+    "anio": 2017,
+    "imagen": "http://cdn-images.dzcdn.net/images/cover/18715392239c277e0906c2fc29ccd038/500x500-000000-80-0-0.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "García",
+    "artista": "Kany García",
+    "album": "García",
+    "anio": 2024,
+    "imagen": "https://www.lahiguera.net/musicalia/artistas/kany_garcia/disco/13493/kany_garcia_garcia-portada.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Papá cuéntame otra vez",
+    "artista": "Ismael Serrano",
+    "album": "Atrapados en Azul",
+    "anio": 1997,
+    "imagen": "https://e.snmc.io/i/600/w/19eb9698992129d083444befb35e6d9f/3407663/ismael-serrano-papa-cuentame-otra-vez-Cover-Art.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Rett i foret",
+    "artista": "Karpe",
+    "album": "Heisann Montebello de Karpe",
+    "anio": 2016,
+    "imagen": "https://i.scdn.co/image/ab67616d0000b2739509a7dfc5bf1c536c9ee2c9"
+  },
+  {
+    "id": 8,
+    "titulo": "Porselen",
+    "artista": "Karpe",
+    "album": "Kors på halsen, ti kniver i hjertet, mor og far i døde",
+    "anio": 2012,
+    "imagen": "https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2Fff0e0df552d6e371ce6822f06b82db70.1000x1000x1.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "From Within",
+    "artista": "Michel Camilo",
+    "album": "Documental: Calle 54",
+    "anio": 1993,
+    "imagen": "https://i.scdn.co/image/ab67616d00001e022be3aaec1a35ec6938aa326b"
+  },
+  {
+    "id": 10,
+    "titulo": "One Percent",
+    "artista": "GoGo Penguin",
+    "album": "v2.0",
+    "anio": 2014,
+    "imagen": "https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2F20755975c2318d9f9aeeb6da4971301e.1000x1000x1.jpg"
+  },
+  {
+    "id": 11,
+    "titulo": "Stream of Consciousness",
+    "artista": "Dream Theater",
+    "album": "Train of Thought",
+    "anio": 2003,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VJUiQXYOtwq4sdypPQy2KwZEyvb7sft6cA&s"
+  },
+  {
+    "id": 12,
+    "titulo": "Rocanroles sin destino",
+    "artista": "Callejeros",
+    "album": "Rocanroles sin destino",
+    "anio": 2004,
+    "imagen": "https://cdn-images.dzcdn.net/images/cover/792666e8bfc38e0a0e6340cc48a6091e/500x500-000000-80-0-0.jpg"
+  },
+  {
+    "id": 13,
+    "titulo": "Nothing Else Matters",
+    "artista": "Metallica",
+    "album": "Metallica",
+    "anio": 1991,
+    "imagen": "https://cdn-images.dzcdn.net/images/cover/78926f4aa1440823f16c8ea5c20c2da5/500x500-000000-80-0-0.jpg"
+  },
+  {
+   "id": 14,
+    "titulo": "A los leones",
+    "artista": "Iván Noble",
+    "album": "Intemperie",
+    "anio": 2007,
+    "imagen": "https://cdn-images.dzcdn.net/images/cover/1398e30d20da1a0dfd1be3f81ba5e801/500x500-000000-80-0-0.jpg"
+  },
+  {
+   "id": 15,
+    "titulo": "Laura no está",
+    "artista": "Nek",
+    "album": "Lei, gli amici e tutto il resto",
+    "anio": 1996,
+    "imagen": "https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2Fb5dac826c554e6b62a86c26e4d07ed24.590x600x1.jpg"
+  },
+  {
+   "id": 16,
+    "titulo": "Bohemian Rhapsody",
+    "artista": "Queen",
+    "album": "A Night at the Opera",
+    "anio": 1975,
+    "imagen": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/hqdefault.jpg"
+  },
+  {
+   "id": 17,
+    "titulo": "Paradise City",
+    "artista": "Guns N' Roses",
+    "album": "Appetite for Destruction",
+    "anio": 1987,
+    "imagen": "https://scontent.ffdo24-3.fna.fbcdn.net/v/t39.30808-6/299999339_535708978378920_3346278553071186650_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=8o_RpCAKTaQQ7kNvwFtU3dR&_nc_oc=Admv5iAFXkFUc9miEnVmy6aRTQ8aRP3TYoRXqtv7wC3m13WuvhyZGRyde7v9maxzZrI&_nc_zt=23&_nc_ht=scontent.ffdo24-3.fna&_nc_gid=uwAooBJbGo6EiWMuy7o2EA&oh=00_AffcmqsIbtCOSxhiljXdu4rUF8-vHEsJa_aiLvdzhKsg2g&oe=68F1FDEC"
+  },
+  {
+   "id": 18,
+    "titulo": "Dream On",
+    "artista": "Aerosmith",
+    "album": "Aerosmith",
+    "anio": 1973,
+    "imagen": "https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2Ffeb22c65c3f1f674decb0ac80fc2a8ae.600x525x1.jpg"
+  }
+]

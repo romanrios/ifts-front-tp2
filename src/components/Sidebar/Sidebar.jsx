@@ -14,6 +14,9 @@ function Sidebar() {
             <Link to="/integrantes" className={styles.link}>Integrantes</Link>
           </li>
           <li className={styles.menuItem}>
+            <Link to="/musica" className={styles.link}>Música</Link>
+          </li>
+          <li className={styles.menuItem}>
             <Link to="/bitacora" className={styles.link}>Bitácora</Link>
           </li>
         </ul>
