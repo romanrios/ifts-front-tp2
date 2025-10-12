@@ -1,17 +1,14 @@
 import React, { useEffect, useState } from "react";
 import styles from "./musica.module.css";
+import cancionesData from "../data/musica.json";
 
 function Musica() {
   const [canciones, setCanciones] = useState([]);
 
   useEffect(() => {
-    // Carga el archivo JSON
-    fetch("/public/musica.json")
-      .then((response) => response.json())
-      .then((data) => setCanciones(data))
-      .catch((error) => console.error("Error al cargar el JSON:", error));
+    setCanciones(cancionesData);
   }, []);
-
+  
   return (
     <section className={styles.musica}>
       <h2>🎵 Nuestras canciones favoritas</h2>
