@@ -142,5 +142,21 @@
     "album": "Aerosmith",
     "anio": 1973,
     "imagen": "https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2Ffeb22c65c3f1f674decb0ac80fc2a8ae.600x525x1.jpg"
+  },
+  {
+   "id": 19,
+    "titulo": "Kulikitaka",
+    "artista": "Toño Rosario",
+    "album": "Kulikitaka",
+    "anio": 2003,
+    "imagen": "https://cdn-images.dzcdn.net/images/artist/c7db844c7e6a78cfe6a9ffe983e75ec2/500x500-000000-80-0-0.jpg"
+  },
+  {
+   "id": 20,
+    "titulo": "Asereje",
+    "artista": "Las Ketchup",
+    "album": "Hijas del tomate",
+    "anio": 2002,
+    "imagen": "https://cdn-images.dzcdn.net/images/cover/be45674dc35c8f974a934dc3779c7b59/500x500-000000-80-0-0.jpg"
   }
 ]

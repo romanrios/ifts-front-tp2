@@ -2,31 +2,10 @@
   padding: 2rem;
   text-align: center;
 }
-
 .cancionesContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
   margin-top: 1rem;
-}
-
-.cancionCard {
-  background-color: #ffffff;
-  border-radius: 10px;
-  width: 200px;
-  padding: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.cancionCard:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.albumImg {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 0.5rem;
 }
