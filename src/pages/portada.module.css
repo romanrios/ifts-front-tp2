@@ -1,14 +1,5 @@
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #f9f8fa;
-    color: #333;
-    line-height: 1.6;
-    text-align: center;
-}
-
-
 .fotoMain {
-background-image: url("/fondoMain.png");
+    background-image: url("/fondoMain.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -35,13 +26,13 @@ background-image: url("/fondoMain.png");
     mix-blend-mode: screen;
 }
 
-li {
-    margin-top: 10px;
-    margin-bottom: 1px;
-}
-
 .listaMain {
     font-size: 1rem;
     padding: 0.2rem;
     list-style-type: none;
+}
+
+.listaMain li {
+    margin-top: 10px;
+    margin-bottom: 1px;
 }

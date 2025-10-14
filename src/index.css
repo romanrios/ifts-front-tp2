@@ -8,11 +8,13 @@
 }
 
 body {
-  font-family: 'Roboto', 'Inter', sans-serif;
-  background: #f8f9fa;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f9f8fa;
   color: #333;
-  line-height: 1.6
+  line-height: 1.6;
+  text-align: center;
 }
+
 
 a {
   text-decoration: none;
@@ -27,6 +29,7 @@ a {
 }
 
 .app-main {
+  width: 100%;
   flex: 1;
   margin-left: 200px;
   padding: 1rem

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./musica.module.css";
 import CardMusica from "../components/CardMusica/CardMusica";
 import cancionesData from "../data/musica.json";
