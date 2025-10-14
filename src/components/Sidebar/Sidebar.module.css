@@ -31,6 +31,12 @@
     text-decoration: underline;
 }
 
+.logo {
+    width: 8rem;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
 /* Responsive */
 @media(max-width:1200px) {
     .sidebar {

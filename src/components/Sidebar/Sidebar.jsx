@@ -4,6 +4,11 @@ import styles from './Sidebar.module.css';
 function Sidebar() {
   return (
     <aside className={styles.sidebar}>
+      <img 
+        src="./Public/5 estrellas.png" 
+        alt="5 estrellas" 
+        className={styles.logo} 
+      ></img>
       <h2 className={styles.title}>Grupo 2</h2>
       <nav>
         <ul className={styles.menu}>
