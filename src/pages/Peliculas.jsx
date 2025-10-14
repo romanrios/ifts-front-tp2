@@ -1,32 +1,79 @@
 import React, { useEffect, useState } from "react";
-import styles from "./peliculas.module.css";
 import Peli from "../components/Pelis/Pelis";
+import styles from "./peliculas.module.css";
 
 const claveAPI = import.meta.env.VITE_KEY_API;
-const URL = `http://www.omdbapi.com/?i=tt3896198&apikey=${claveAPI}`;
 
 function Pelis() {
-  const [peli, setPeli] = useState(null);
+  const [query, setQuery] = useState("batman"); // default search term
+  const [pelis, setPelis] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch(URL);
+  const fetchMovies = async (term) => {
+    if (!term) return;
+    setLoading(true);
+    setError("");
+
+    try {
+      const res = await fetch(`https://www.omdbapi.com/?s=${term}&apikey=${claveAPI}`);
       const json = await res.json();
-      setPeli(json);
-    };
-    fetchData();
+      console.log("OMDb data:", json);
+
+      if (json.Response === "True") {
+        setPelis(json.Search);
+      } else {
+        setPelis([]);
+        setError(json.Error || "No se encontraron películas 😢");
+      }
+    } catch (err) {
+      console.error("Error fetching data:", err);
+      setError("Error al obtener datos del servidor.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Fetch default movies on mount
+  useEffect(() => {
+    fetchMovies(query);
   }, []);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    fetchMovies(query);
+  };
 
   return (
     <section className={styles.peli}>
-      <h2>🎬 Pelis</h2>
+      <h2>🎬 Buscador de pelis</h2>
+
+      <form onSubmit={handleSubmit} className={styles.searchForm}>
+        <input
+          type="text"
+          value={query}
+          placeholder="Buscar película..."
+          onChange={(e) => setQuery(e.target.value)}
+          className={styles.searchInput}
+        />
+        <button type="submit" className={styles.searchButton}>
+          Buscar
+        </button>
+      </form>
+
       <div className={styles.pelisContainer}>
-        {peli ? (
-          <div className={styles.peliCard}>
-            <Peli peli={peli} />
-          </div>
-        ) : (
+        {loading ? (
           <p>Cargando...</p>
+        ) : error ? (
+          <p>{error}</p>
+        ) : pelis.length > 0 ? (
+          pelis.map((peli) => (
+            <div key={peli.imdbID} className={styles.peliCard}>
+              <Peli peli={peli} />
+            </div>
+          ))
+        ) : (
+          <p>No hay resultados.</p>
         )}
       </div>
     </section>
