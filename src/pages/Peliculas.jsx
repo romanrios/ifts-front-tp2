@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Peli from "../components/Pelis/Pelis";
+import CardPeli from "../components/Pelis/CardPeli";
 import styles from "./peliculas.module.css";
 
 const claveAPI = import.meta.env.VITE_KEY_API;
 
-function Pelis() {
-  const [query, setQuery] = useState("batman"); // default search term
+function Peliculas() {
+  const [query, setQuery] = useState("batman"); 
   const [pelis, setPelis] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -34,7 +34,6 @@ function Pelis() {
     }
   };
 
-  // Fetch default movies on mount
   useEffect(() => {
     fetchMovies(query);
   }, []);
@@ -62,22 +61,23 @@ function Pelis() {
       </form>
 
       <div className={styles.pelisContainer}>
-        {loading ? (
-          <p>Cargando...</p>
-        ) : error ? (
-          <p>{error}</p>
-        ) : pelis.length > 0 ? (
-          pelis.map((peli) => (
-            <div key={peli.imdbID} className={styles.peliCard}>
-              <Peli peli={peli} />
-            </div>
-          ))
-        ) : (
-          <p>No hay resultados.</p>
-        )}
+  {loading ? (
+    <p>Cargando...</p>
+  ) : error ? (
+    <p>{error}</p>
+  ) : pelis.length > 0 ? (
+    pelis.map((peli) => (
+      <div key={peli.imdbID} className={styles.peliCard}>
+        <CardPeli peli={peli} />
       </div>
+    ))
+  ) : (
+    <p>No hay resultados.</p>
+  )}
+</div>
+
     </section>
   );
 }
 
-export default Pelis;
+export default Peliculas;

@@ -5,7 +5,7 @@ import Bitacora from "./pages/Bitacora";
 import Integrantes from "./pages/Integrantes";
 import Integrante from "./pages/Integrante";
 import Musica from "./pages/Musica";
-import Pelis from "./pages/Peliculas";
+import Peliculas from "./pages/Peliculas";
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="/integrantes" element={<Integrantes />} />
           <Route path="/integrantes/:id" element={<Integrante />} />
           <Route path="/musica" element={<Musica />} />
-          <Route path="/pelis" element={<Pelis />} />
+          <Route path="/Peliculas" element={<Peliculas />} />
         </Routes>
       </main>
     </div>

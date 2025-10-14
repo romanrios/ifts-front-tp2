@@ -25,7 +25,7 @@ function Sidebar() {
             <Link to="/bitacora" className={styles.link}>Bitácora</Link>
           </li>
           <li className={styles.menuItem}>
-            <Link to="/pelis" className={styles.link}>Películas</Link>
+            <Link to="/Peliculas" className={styles.link}>Películas</Link>
           </li>
         </ul>
       </nav>
