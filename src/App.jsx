@@ -18,6 +18,7 @@ function App() {
           <Route path="/integrantes" element={<Integrantes />} />
           <Route path="/integrantes/:id" element={<Integrante />} />
           <Route path="/musica" element={<Musica />} />
+          <Route path="/Pelis" element={<Peliculas />} />
         </Routes>
       </main>
     </div>

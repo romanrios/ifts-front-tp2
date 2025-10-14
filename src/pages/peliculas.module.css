@@ -1,0 +1,12 @@
+.peli {
+    padding: 2rem;
+    text-align: center;
+}
+
+.pelisContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
