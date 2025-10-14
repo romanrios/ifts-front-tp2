@@ -1,4 +1,4 @@
-import Card from "../components/Card/Card";
+import CardIntegrante from "../components/CardIntegrante/CardIntegrante";
 import { integrantes } from "../data/integrantes";
 
 function Integrantes() {
@@ -15,7 +15,7 @@ function Integrantes() {
       <br></br>
       <div style={containerStyle}>
         {integrantes.map((int) => (
-          <Card key={int.id} integrante={int} />
+          <CardIntegrante key={int.id} integrante={int} />
         ))}
       </div>
     </>

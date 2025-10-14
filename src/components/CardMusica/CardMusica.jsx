@@ -1,6 +1,6 @@
-import styles from "./Music.module.css";
+import styles from "./CardMusica.module.css";
 
-function Music({ cancion }) {
+function CardMusica({ cancion }) {
   return (
     <div className={styles.cancionCard}>
       <img
@@ -17,4 +17,4 @@ function Music({ cancion }) {
   );
 }
 
-export default Music;
+export default CardMusica;

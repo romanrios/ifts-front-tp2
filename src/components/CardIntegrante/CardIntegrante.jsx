@@ -1,7 +1,7 @@
 import Button from "../Button/Button";
-import styles from "./Card.module.css";
+import styles from "./CardIntegrante.module.css";
 
-function Card({ integrante }) {
+function CardIntegrante({ integrante }) {
   return (
     <div className={styles.card}>
       <img src={integrante.img} alt={integrante.nombre} className={styles.cardImg} />
@@ -13,4 +13,4 @@ function Card({ integrante }) {
   );
 }
 
-export default Card;
+export default CardIntegrante;
