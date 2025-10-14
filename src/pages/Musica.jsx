@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./musica.module.css";
-import Music from "../components/Music/Music";
+import CardMusica from "../components/CardMusica/CardMusica";
 import cancionesData from "../data/musica.json";
 
 function Musica() {
@@ -16,7 +16,7 @@ function Musica() {
       <div className={styles.cancionesContainer}>
         {canciones.map((cancion) => (
           <div key={cancion.id} className={styles.cancionCard}>
-            <Music cancion={cancion} />
+            <CardMusica cancion={cancion} />
           </div>
         ))}
       </div>

@@ -1,7 +1,7 @@
-import styles from "./CardPeli.module.css";
+import styles from "./CardPelicula.module.css";
 
 
-function CardPeli({ peli }) {
+function CardPelicula({ peli }) {
   return (
     <div className={styles.peliCard}>
       <h3>{peli.Title}</h3>
@@ -10,4 +10,4 @@ function CardPeli({ peli }) {
   );
 }
 
-export default CardPeli;
+export default CardPelicula;

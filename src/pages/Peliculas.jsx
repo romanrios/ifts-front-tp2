@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
-import CardPeli from "../components/Pelis/CardPeli";
+import { useEffect, useState } from "react";
+import CardPelicula from "../components/CardPelicula/CardPelicula";
 import styles from "./peliculas.module.css";
 
 const claveAPI = import.meta.env.VITE_KEY_API;
 
 function Peliculas() {
-  const [query, setQuery] = useState("batman"); 
+  const [query, setQuery] = useState("batman");
   const [pelis, setPelis] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -61,20 +61,20 @@ function Peliculas() {
       </form>
 
       <div className={styles.pelisContainer}>
-  {loading ? (
-    <p>Cargando...</p>
-  ) : error ? (
-    <p>{error}</p>
-  ) : pelis.length > 0 ? (
-    pelis.map((peli) => (
-      <div key={peli.imdbID} className={styles.peliCard}>
-        <CardPeli peli={peli} />
+        {loading ? (
+          <p>Cargando...</p>
+        ) : error ? (
+          <p>{error}</p>
+        ) : pelis.length > 0 ? (
+          pelis.map((peli) => (
+            <div key={peli.imdbID} className={styles.peliCard}>
+              <CardPelicula peli={peli} />
+            </div>
+          ))
+        ) : (
+          <p>No hay resultados.</p>
+        )}
       </div>
-    ))
-  ) : (
-    <p>No hay resultados.</p>
-  )}
-</div>
 
     </section>
   );
