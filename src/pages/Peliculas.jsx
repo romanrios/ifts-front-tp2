@@ -66,8 +66,8 @@ function Peliculas() {
         ) : error ? (
           <p>{error}</p>
         ) : pelis.length > 0 ? (
-          pelis.map((peli) => (
-            <div key={peli.imdbID} className={styles.peliCard}>
+          pelis.map((peli, index) => (
+            <div key={`${peli.imdbID}-${index}`} className={styles.peliCard}>
               <CardPelicula peli={peli} />
             </div>
           ))
