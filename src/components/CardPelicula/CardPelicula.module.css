@@ -1,10 +1,16 @@
 .peliCard {
     background-color: #ffffff;
     border-radius: 1em;
-    width: 13 em;
+    width: 13em;
+    height: 24em;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .peliCard:hover {
@@ -12,3 +18,25 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+.peliCard img {
+    width: 100%;
+    height: 18em;
+    object-fit: cover;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+}
+
+.peliCard h3 {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    margin: 0.5rem 0 0;
+    height: 2.5em;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.1;
+}

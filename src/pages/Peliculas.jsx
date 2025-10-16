@@ -5,7 +5,11 @@ import styles from "./peliculas.module.css";
 const claveAPI = import.meta.env.VITE_KEY_API;
 
 function Peliculas() {
-  const [query, setQuery] = useState("batman");
+  const [query, setQuery] = useState(
+    ["batman", "matrix", "spiderman", "avengers", "star wars", "superman", "disney", "pokemon"][
+    Math.floor(Math.random() * 8)
+    ]
+  );
   const [pelis, setPelis] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
