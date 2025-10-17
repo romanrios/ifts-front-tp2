@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Portada from "./pages/Portada/Portada";
 import Bitacora from "./pages/Bitacora/Bitacora";
@@ -21,6 +21,7 @@ function App() {
           <Route path="/musica" element={<Musica />} />
           <Route path="/peliculas" element={<Peliculas />} />
           <Route path="/diagramas" element={<Diagramas />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
     </div>
