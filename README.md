@@ -52,94 +52,66 @@ npm run preview
 ifts-front-tp2-main/
 │
 ├── public/
-│   ├── belen-fondo.jpg
-│   ├── belen.png
-│   ├── cesu.png
-│   ├── dani-fondo.jpg
-│   ├── dani.png
-│   ├── euge-barriochino.jpg
-│   ├── euge.png
-│   ├── fondo.png
-│   ├── fondoMain.png
-│   ├── ifts_logo.svg
-│   ├── logo-grupo.svg
-│   ├── no-poster.jpg
-│   └── roman.png
+│   └── [ imágenes ]
 │
-└── src/
-│    ├── App.jsx
-│    ├── index.css
-│    ├── main.jsx
-│    │
-│    ├── components/
-│    │   ├── Button/
-│    │   │   ├── Button.jsx
-│    │   │   └── Button.module.css
-│    │   │
-│    │   ├── CardBitacora/
-│    │   │   ├── CardBitacora.jsx
-│    │   │   └── CardBitacora.module.css
-│    │   │
-│    │   ├── CardIntegrante/
-│    │   │   ├── CardIntegrante.jsx
-│    │   │   └── CardIntegrante.module.css
-│    │   │
-│    │   ├── CardMusica/
-│    │   │   ├── CardMusica.jsx
-│    │   │   └── CardMusica.module.css
-│    │   │
-│    │   ├── CardPelicula/
-│    │   │   ├── CardPelicula.jsx
-│    │   │   └── CardPelicula.module.css
-│    │   │
-│    │   └── Sidebar/
-│    │       ├── Sidebar.jsx
-│    │       └── Sidebar.module.css
-│    │
-│    ├── data/
-│    │   ├── integrantes.js
-│    │   └── musica.json
-│    │
-│    ├── pages/
-│    │    ├── Bitacora/
-│    │    │   ├── Bitacora.jsx
-│    │    │   └── Bitacora.module.css
-│    │    │
-│    │    ├── Diagramas/
-│    │    │   ├── Diagramas.jsx
-│    │    │   └── Diagramas.module.css
-│    │    │
-│    │    ├── Integrante/
-│    │    │   ├── Integrante.jsx
-│    │    │   └── Integrante.module.css
-│    │    │
-│    │    ├── Integrantes/
-│    │    │   └── Integrantes.jsx
-│    │    │
-│    │    ├── Musica/
-│    │    │   ├── Musica.jsx
-│    │    │   └── Musica.module.css
-│    │    │
-│    │    ├── Peliculas/
-│    │    │   ├── Peliculas.jsx
-│    │    │   └── Peliculas.module.css
-│    │    │
-│    │    └── Portada/
-│    │        ├── Portada.jsx
-│    │        └── Portada.module.css
-│    │
-│    ├── App.jxs
-│    ├── index.css
-│    ├── main.jxs
+├── src/
+│   ├── main.jsx           # entrada principal de React
+│   ├── App.jsx            # componente raíz
+│   ├── index.css          # estilos globales
+│   │
+│   ├── components/        # componentes reutilizables
+│   │   ├── Button/
+│   │   │   ├── Button.jsx
+│   │   │   └── Button.module.css
+│   │   ├── CardBitacora/
+│   │   │   ├── CardBitacora.jsx
+│   │   │   └── CardBitacora.module.css
+│   │   ├── CardIntegrante/
+│   │   │   ├── CardIntegrante.jsx
+│   │   │   └── CardIntegrante.module.css
+│   │   ├── CardMusica/
+│   │   │   ├── CardMusica.jsx
+│   │   │   └── CardMusica.module.css
+│   │   ├── CardPelicula/
+│   │   │   ├── CardPelicula.jsx
+│   │   │   └── CardPelicula.module.css
+│   │   └── Sidebar/
+│   │       ├── Sidebar.jsx
+│   │       └── Sidebar.module.css
+│   │
+│   ├── data/              # archivos de datos / JSON
+│   │   ├── integrantes.js
+│   │   └── musica.json
+│   │
+│   └── pages/             # vistas / páginas
+│       ├── Bitacora/
+│       │   ├── Bitacora.jsx
+│       │   └── Bitacora.module.css
+│       ├── Diagramas/
+│       │   ├── Diagramas.jsx
+│       │   └── Diagramas.module.css
+│       ├── Integrante/
+│       │   ├── Integrante.jsx
+│       │   └── Integrante.module.css
+│       ├── Integrantes/
+│       │   └── Integrantes.jsx
+│       ├── Musica/
+│       │   ├── Musica.jsx
+│       │   └── Musica.module.css
+│       ├── Peliculas/
+│       │   ├── Peliculas.jsx
+│       │   └── Peliculas.module.css
+│       └── Portada/
+│           ├── Portada.jsx
+│           └── Portada.module.css
 │
 ├── .env
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
-├── package-lock.json
 ├── package.json
+├── package-lock.json
 ├── README.md
-├── vite.config.js
-
+└── vite.config.js
 ```
 
