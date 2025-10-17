@@ -3,9 +3,9 @@ import CardBitacora from "../../components/CardBitacora/CardBitacora";
 
 function Bitacora() {
   return (
-    <>
+    <section>
       <div className={styles.fotoMain}>
-        <h1 className={styles.Titulo}>BITÁCORA</h1>
+        <h2 className={styles.Titulo}>BITÁCORA</h2>
       </div>
 
       <CardBitacora titulo="Decisiones de diseño tomadas por el equipo">
@@ -54,7 +54,7 @@ function Bitacora() {
           </li>
         </ul>
       </CardBitacora>
-    </>
+    </section>
   );
 }
 

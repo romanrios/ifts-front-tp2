@@ -5,6 +5,12 @@
   padding: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;
+  text-wrap: balance;
+  line-height: 1.15;
 }
 
 .cancionCard:hover {

@@ -24,7 +24,7 @@ export const integrantes = [
     },
     {
       id: 2,
-      nombre: "Cesu Gomez",
+      nombre: "Cesu Gómez",
       img: "/cesu.png",
       ubicacion: "Saavedra, CABA",
       edad: 39,

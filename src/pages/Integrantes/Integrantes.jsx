@@ -1,24 +1,18 @@
 import CardIntegrante from "../../components/CardIntegrante/CardIntegrante";
 import { integrantes } from "../../data/integrantes";
+import styles from "./Integrantes.module.css";
 
 function Integrantes() {
-  const containerStyle = {
-    display: "flex",
-    flexWrap: "wrap",
-    gap: "1rem",
-    justifyContent: "center",
-  };
-
   return (
-    <>
+    <section className={styles.integrantes}>
       <h2>Integrantes</h2>
-      <br></br>
-      <div style={containerStyle}>
+      <br />
+      <div className={styles.container}>
         {integrantes.map((int) => (
           <CardIntegrante key={int.id} integrante={int} />
         ))}
       </div>
-    </>
+    </section>
   );
 }
 
