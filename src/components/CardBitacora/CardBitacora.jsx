@@ -1,4 +1,4 @@
-import styles from "./cardBitacora.module.css";
+import styles from "./CardBitacora.module.css";
 
 function CardBitacora({ titulo, children }) {
   return (
