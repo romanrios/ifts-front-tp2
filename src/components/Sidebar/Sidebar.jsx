@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <aside className={styles.sidebar}>
       <img
-        src="./public/logo-grupo.svg"
+        src="/logo-grupo.svg"
         alt="Logo del grupo"
         className={styles.logo}
       ></img>
