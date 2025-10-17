@@ -83,7 +83,12 @@ ifts-front-tp2/
       <hr />
       <br />
       <h3>Árbol de renderizado:</h3>
-      <p>Acá va el árbol de renderizado</p>
+      <br />
+      <img 
+        src="/Renderizado.drawio.png" 
+        alt="Diagrama de Renderizado" 
+        className={styles.arbolImagen} 
+      />
     </section>
   );
 }
