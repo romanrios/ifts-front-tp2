@@ -6,7 +6,7 @@ const claveAPI = import.meta.env.VITE_KEY_API;
 
 function Peliculas() {
   const [query, setQuery] = useState(
-    ["batman", "matrix", "spiderman", "avengers", "star wars", "superman", "disney", "pokemon"][
+    ["batman", "matrix", "spider man", "avengers", "star wars", "superman", "disney", "pokemon"][
     Math.floor(Math.random() * 8)
     ]
   );
