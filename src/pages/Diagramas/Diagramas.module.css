@@ -1,7 +1,29 @@
 .diagramas {
     padding: 2rem 0;
 }
+.fotoMain {
+    background-image: url("/fondoMain.png");
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.Titulo {
+    background-color: white;
+    color: black;
+    font-size: 5vw;
+    font-weight: bold;
+    padding: 10px 50px;
+    text-align: center;
+    mix-blend-mode: screen;
+}
 .pre {
     text-align: left;
     max-width: 450px;

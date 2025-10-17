@@ -1,6 +1,8 @@
 import styles from "./Diagramas.module.css";
 
 function Diagramas() {
+
+
   const estructura = `
 ifts-front-tp2/
 │
@@ -70,7 +72,10 @@ ifts-front-tp2/
 
   return (
     <section className={styles.diagramas}>
-      <h2>Diagramas</h2>
+      
+  <div className={styles.fotoMain}>
+        <h2 className={styles.Titulo}>DIAGRAMAS</h2>
+      </div>
       <br />
       <hr />
       <br />
