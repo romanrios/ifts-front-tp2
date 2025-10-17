@@ -51,46 +51,6 @@ npm run preview
 ```bash
 ifts-front-tp2-main/
 │
-├── archivos-tp-anterior/
-│   ├── css/
-│   │   ├── belen.css
-│   │   ├── bitacora.css
-│   │   ├── cesu.css
-│   │   ├── dani.css
-│   │   ├── euge.css
-│   │   ├── index.css
-│   │   ├── roman.css
-│   │
-│   ├── img/
-│   │   ├── barriochino.jpg
-│   │   ├── cesu-imagen.png
-│   │   ├── fondobelen.jpg
-│   │   ├── fondoDani.jpg
-│   │   ├── fotoDani.png
-│   │   ├── fotoEu.png
-│   │   ├── ifts_logo.svg
-│   │   ├── perfilbelen.png
-│   │   ├── roman.png
-│   │
-│   ├── js/
-│   │    ├── belen.js
-│   │    ├── cesu.js
-│   │    ├── daniel.js
-│   │    ├── euge.js
-│   │    ├── index.js
-│   │    └── roman.js
-│   │                     
-│   ├── .gitignore
-│   ├── belen.html
-│   ├── bitacora.html
-│   ├── cesu.html
-│   ├── daniel.html
-│   ├── euge.html
-│   ├── index.html
-│   ├── README.md
-│   ├── roman.html
-│
-│
 ├── public/
 │   ├── belen-fondo.jpg
 │   ├── belen.png
