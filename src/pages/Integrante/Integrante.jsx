@@ -36,6 +36,8 @@ function Integrante() {
           </div>
         </div>
 
+        <hr />
+
         <div className={styles.section}>
           <h3>Habilidades</h3>
           <ul>
@@ -43,12 +45,16 @@ function Integrante() {
           </ul>
         </div>
 
+        <hr />
+
         <div className={styles.section}>
           <h3>Películas Favoritas</h3>
           <ul>
             {integrante.peliculasFavoritas.map((p, i) => <li key={i}>{p}</li>)}
           </ul>
         </div>
+
+        <hr />
 
         <div className={styles.section}>
           <h3>Música Favorita</h3>
