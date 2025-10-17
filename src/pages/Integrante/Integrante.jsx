@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import { integrantes } from "../data/integrantes";
+import { integrantes } from "../../data/integrantes";
 import styles from "./Integrante.module.css";
-import Button from "../components/Button/Button";
+import Button from "../../components/Button/Button";
 
 function Integrante() {
   const { id } = useParams();

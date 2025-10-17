@@ -4,10 +4,10 @@ import styles from './Sidebar.module.css';
 function Sidebar() {
   return (
     <aside className={styles.sidebar}>
-      <img 
-        src="./Public/logo-grupo.svg" 
-        alt="Logo del grupo" 
-        className={styles.logo} 
+      <img
+        src="./Public/logo-grupo.svg"
+        alt="Logo del grupo"
+        className={styles.logo}
       ></img>
       <h2 className={styles.title}>Grupo 2</h2>
       <nav>
@@ -22,10 +22,13 @@ function Sidebar() {
             <Link to="/musica" className={styles.link}>Música</Link>
           </li>
           <li className={styles.menuItem}>
+            <Link to="/peliculas" className={styles.link}>Películas</Link>
+          </li>
+          <li className={styles.menuItem}>
             <Link to="/bitacora" className={styles.link}>Bitácora</Link>
           </li>
           <li className={styles.menuItem}>
-            <Link to="/peliculas" className={styles.link}>Películas</Link>
+            <Link to="/diagramas" className={styles.link}>Diagramas</Link>
           </li>
         </ul>
       </nav>

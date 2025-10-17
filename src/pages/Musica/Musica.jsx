@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import styles from "./musica.module.css";
-import CardMusica from "../components/CardMusica/CardMusica";
-import cancionesData from "../data/musica.json";
+import styles from "./Musica.module.css";
+import CardMusica from "../../components/CardMusica/CardMusica";
+import cancionesData from "../../data/musica.json";
 
 function Musica() {
   const [canciones, setCanciones] = useState([]);

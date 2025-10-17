@@ -1,5 +1,5 @@
-import CardIntegrante from "../components/CardIntegrante/CardIntegrante";
-import { integrantes } from "../data/integrantes";
+import CardIntegrante from "../../components/CardIntegrante/CardIntegrante";
+import { integrantes } from "../../data/integrantes";
 
 function Integrantes() {
   const containerStyle = {

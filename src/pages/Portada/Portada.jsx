@@ -1,4 +1,4 @@
-import styles from "./portada.module.css";
+import styles from "./Portada.module.css";
 
 function Portada() {
   const containerStyle = {

@@ -1,5 +1,5 @@
-import styles from "./bitacora.module.css";
-import CardBitacora from "./CardBitacora";
+import styles from "./Bitacora.module.css";
+import CardBitacora from "../../components/CardBitacora/CardBitacora";
 
 function Bitacora() {
   return (

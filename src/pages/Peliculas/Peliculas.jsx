@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import CardPelicula from "../components/CardPelicula/CardPelicula";
-import styles from "./peliculas.module.css";
+import CardPelicula from "../../components/CardPelicula/CardPelicula";
+import styles from "./Peliculas.module.css";
 
 const claveAPI = import.meta.env.VITE_KEY_API;
 
