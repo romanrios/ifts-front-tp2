@@ -9,6 +9,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 320px;
+  text-wrap: balance;
+  line-height: 1.15;
 }
 
 .cancionCard:hover {
