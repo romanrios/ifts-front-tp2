@@ -49,7 +49,7 @@ npm run preview
 ```
 ### 5. Estructura de Archivos
 ```bash
-ifts-front-tp2-main/
+ifts-front-tp2/
 │
 ├── public/
 │   └── [ imágenes ]
