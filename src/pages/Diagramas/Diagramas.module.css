@@ -1,6 +1,7 @@
-.diagramas {
+/* .diagramas {
     padding: 2rem 0;
-}
+} */
+
 .fotoMain {
     background-image: url("/fondoMain.png");
     background-size: cover;
@@ -24,9 +25,10 @@
     text-align: center;
     mix-blend-mode: screen;
 }
+
 .pre {
     text-align: left;
-    max-width: 450px;
+    max-width: 460px;
     margin: 0 auto;
     overflow-x: auto;
     white-space: pre;
