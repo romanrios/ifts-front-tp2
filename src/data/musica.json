@@ -5,7 +5,7 @@
     "artista": "Phil Collins",
     "album": "…But Seriously",
     "anio": 1989,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/5/53/Phil_Collins_AnotherDayInParadise.jpg"
+    "imagen": "/musica/anotherday.jpg"
   },
   { 
     "id": 2,
@@ -13,7 +13,7 @@
     "artista": "Alphaville",
     "album": "Forever Young",
     "anio": 1984,
-    "imagen": "https://upload.wikimedia.org/wikipedia/en/4/4e/Alphavilleforeveryoung.jpg"
+    "imagen": "/musica/foreveryoung.jpg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "artista": "Esteman",
     "album": "Amor Libre",
     "anio": 2019,
-    "imagen": "https://cdn-images.dzcdn.net/images/cover/340571750c98c8dd52d0b2c5ab9f3f95/500x500-000000-80-0-0.jpg"
+    "imagen": "/musica/fuimosamor.jpg"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "artista": "Vanesa Martín",
     "album": "Munay",
     "anio": 2017,
-    "imagen": "http://cdn-images.dzcdn.net/images/cover/18715392239c277e0906c2fc29ccd038/500x500-000000-80-0-0.jpg"
+    "imagen": "/musica/habitodeti.jpg"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "artista": "Kany García",
     "album": "García",
     "anio": 2024,
-    "imagen": "https://www.lahiguera.net/musicalia/artistas/kany_garcia/disco/13493/kany_garcia_garcia-portada.jpg"
+    "imagen": "/musica/garcia.jpg"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "artista": "Ismael Serrano",
     "album": "Atrapados en Azul",
     "anio": 1997,
-    "imagen": "https://e.snmc.io/i/600/w/19eb9698992129d083444befb35e6d9f/3407663/ismael-serrano-papa-cuentame-otra-vez-Cover-Art.jpg"
+    "imagen": "/musica/papacuentame.webp"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "artista": "Karpe",
     "album": "Heisann Montebello de Karpe",
     "anio": 2016,
-    "imagen": "https://i.scdn.co/image/ab67616d0000b2739509a7dfc5bf1c536c9ee2c9"
+    "imagen": "/musica/rettiforet.jpg"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "artista": "Karpe",
     "album": "Kors på halsen, ti kniver i hjertet, mor og far i døde",
     "anio": 2012,
-    "imagen": "https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2Fff0e0df552d6e371ce6822f06b82db70.1000x1000x1.jpg"
+    "imagen": "/musica/toyota.jpg"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "artista": "Michel Camilo",
     "album": "Documental: Calle 54",
     "anio": 1993,
-    "imagen": "https://i.scdn.co/image/ab67616d00001e022be3aaec1a35ec6938aa326b"
+    "imagen": "/musica/fromwithin.jpg"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "artista": "GoGo Penguin",
     "album": "v2.0",
     "anio": 2014,
-    "imagen": "https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2F20755975c2318d9f9aeeb6da4971301e.1000x1000x1.jpg"
+    "imagen": "/musica/onepercent.jpg"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "artista": "Dream Theater",
     "album": "Train of Thought",
     "anio": 2003,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VJUiQXYOtwq4sdypPQy2KwZEyvb7sft6cA&s"
+    "imagen": "/musica/stream.jpg"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "artista": "Callejeros",
     "album": "Rocanroles sin destino",
     "anio": 2004,
-    "imagen": "https://cdn-images.dzcdn.net/images/cover/792666e8bfc38e0a0e6340cc48a6091e/500x500-000000-80-0-0.jpg"
+    "imagen": "/musica/rocanroles.jpg"
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "artista": "Metallica",
     "album": "Metallica",
     "anio": 1991,
-    "imagen": "https://cdn-images.dzcdn.net/images/cover/78926f4aa1440823f16c8ea5c20c2da5/500x500-000000-80-0-0.jpg"
+    "imagen": "/musica/nothing.jpg"
   },
   {
    "id": 14,
@@ -109,7 +109,7 @@
     "artista": "Iván Noble",
     "album": "Intemperie",
     "anio": 2007,
-    "imagen": "https://cdn-images.dzcdn.net/images/cover/1398e30d20da1a0dfd1be3f81ba5e801/500x500-000000-80-0-0.jpg"
+    "imagen": "/musica/alosleones.jpg"
   },
   {
    "id": 15,
@@ -117,7 +117,7 @@
     "artista": "Nek",
     "album": "Lei, gli amici e tutto il resto",
     "anio": 1996,
-    "imagen": "https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2Fb5dac826c554e6b62a86c26e4d07ed24.590x600x1.jpg"
+    "imagen": "/musica/lauranoesta.jpg"
   },
   {
    "id": 16,
@@ -125,7 +125,7 @@
     "artista": "Queen",
     "album": "A Night at the Opera",
     "anio": 1975,
-    "imagen": "/queen.jpg"
+    "imagen": "/musica/bohemian.jpg"
   },
   {
    "id": 17,
@@ -133,7 +133,7 @@
     "artista": "Guns N' Roses",
     "album": "Appetite for Destruction",
     "anio": 1987,
-    "imagen": "/paradisecity.jpg"
+    "imagen": "/musica/paradisecity.jpg"
   },
   {
    "id": 18,
@@ -141,7 +141,7 @@
     "artista": "Aerosmith",
     "album": "Aerosmith",
     "anio": 1973,
-    "imagen": "https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2Ffeb22c65c3f1f674decb0ac80fc2a8ae.600x525x1.jpg"
+    "imagen": "/musica/dreamon.jpg"
   },
   {
    "id": 19,
@@ -149,7 +149,7 @@
     "artista": "Toño Rosario",
     "album": "Kulikitaka",
     "anio": 2003,
-    "imagen": "https://cdn-images.dzcdn.net/images/artist/c7db844c7e6a78cfe6a9ffe983e75ec2/500x500-000000-80-0-0.jpg"
+    "imagen": "/musica/kuliki.jpg"
   },
   {
    "id": 20,
@@ -157,6 +157,6 @@
     "artista": "Las Ketchup",
     "album": "Hijas del tomate",
     "anio": 2002,
-    "imagen": "https://cdn-images.dzcdn.net/images/cover/be45674dc35c8f974a934dc3779c7b59/500x500-000000-80-0-0.jpg"
+    "imagen": "/musica/asereje.jpg"
   }
 ]
